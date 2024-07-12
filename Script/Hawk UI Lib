@@ -157,7 +157,7 @@ newsec:Image("Spyro","Hawk",{
         Name = "Spyro", -- "Name of the file and the Title"
         FileName = "Spyro.webm",
         CheckFile = false,
-        ImageLink = "rbxthumb://type=Asset&id=17638693708&w=150&h=150", --webm links or rbxassetid ids only
+        ImageLink = "https://raw.githubusercontent.com/xHzCihan/IDream/main/Owners/SpyroSmirk.webm", --webm links or rbxassetid ids only
         ImageColor = Color3.fromRGB(255, 255, 255), --Image Color
         Stroke = Color3.fromRGB(255, 255, 255), --Stroke Color
         Volume = 1, --Volume if you set a video
