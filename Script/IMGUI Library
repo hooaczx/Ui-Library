@@ -1,0 +1,11 @@
+-- Load the library
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/hooaczx/Ui-Library/main/Codes%20Ui%20Library/IMGUI%20Library"))()
+
+-- Create a window without flags
+local Window1 = Library.Create("Default Window", UDim2.new(0, 400, 0, 300))
+
+-- Create a window with `NoResize` flag
+local Window2 = Library.Create("No Resize Window", UDim2.new(0, 400, 0, 300), {NoResize = true, NoCollapse = false})
+
+-- Create a window with `NoCollapse` flag
+local Window3 = Library.Create("No Collapse Window", UDim2.new(0, 400, 0, 300), {NoResize = false, NoCollapse = true})
